@@ -1,0 +1,15 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@200;300&family=Playfair+Display&display=swap");
+$font_01: "Playfair Display", serif;
+$font_02: "Montserrat", sans-serif;
+
+// Colors
+$color-01: #1c1b22;
+
+// Mixins
+@mixin center-items--col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
